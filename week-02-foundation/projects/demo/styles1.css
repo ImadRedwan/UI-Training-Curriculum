@@ -1,0 +1,21 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    border-radius: 25px;
+    background-color: blanchedalmond;
+}
+
+.head {
+    width: 70vh;
+    height: 250px;
+    display: flex;
+    float: right;
+    border: 1px solid black;
+}
+
+.sidebar {
+    width: 30vh;
+    height: 100vh;
+    border: 1px solid black;
+}
