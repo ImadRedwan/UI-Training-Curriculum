@@ -4,7 +4,6 @@ title: "[Report] - "
 labels: ["REPORT"]
 assignees:
   - ImadRedwan
-type: report
   
 body:
   - type: textarea
