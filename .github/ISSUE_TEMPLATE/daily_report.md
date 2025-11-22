@@ -1,0 +1,44 @@
+name: "Daily Report"
+description: "Write your daily report, Fill in all sections."
+title: "[Report] - "
+labels: ["needs-review"]
+assignees:
+  - ImadRedwan
+  
+body:
+# Issue Title
+> Write a short and descriptive title
+
+---
+
+### Context & Goal
+> Describe what you planned to do today and why this task is important
+Write here:
+
+### Detailed Description
+> Describe step by step what you did or what problem occurred
+Write here:
+
+## Screenshots / Code / References
+> Add any images, GIFs, or code snippets relevant to the issue if is needed
+Write here:
+
+### Technical Notes
+> Mention tools, libraries, components, constraints
+Write here:
+
+### Questions & Blockers
+> Mention tools, libraries, components, constraints
+Write here:
+
+### Self-Assessment
+> What did you learn today? What is unclear?
+Write here:
+
+### Next Steps
+> List actionable tasks for tomorrow or the next steps
+Write here:
+
+### Time Spent
+> How many hours did you spend?
+Write here:
