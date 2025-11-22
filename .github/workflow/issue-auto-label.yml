@@ -1,0 +1,19 @@
+name: Auto Label Issue Type
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  label-issue:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Determine and apply label
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: |
+            ${{ github.event.issue.body contains 'Daily Report' && 'REPORT' }}
+            ${{ github.event.issue.body contains 'Bug / Problem' && 'BUG' }}
+            ${{ github.event.issue.body contains 'Question / Blocker' && 'QUESTION' }}
