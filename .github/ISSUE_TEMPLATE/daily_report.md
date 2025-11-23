@@ -2,7 +2,7 @@
 name: "Daily Report"
 about: "Write your daily report, Fill in all sections."
 title: '[Report] <title>'
-labels: ["REPORT"]
+labels: ["REPORT", "WAIT_FOR_MENTOR"]
 assignees: 'ImadRedwan'
 
 ---
