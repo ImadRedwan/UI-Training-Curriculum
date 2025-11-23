@@ -3,6 +3,7 @@ name: "Daily Report"
 about: "Write your daily report, Fill in all sections."
 title: '[Report] <title>'
 labels: ["REPORT", "WAIT_FOR_MENTOR"]
+milestones: ["Learning React Basics"]
 assignees: 'ImadRedwan'
 
 ---
